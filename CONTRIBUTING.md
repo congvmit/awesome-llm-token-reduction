@@ -19,7 +19,7 @@ Each entry is a single bullet:
 Rules:
 
 - Use the **canonical** source (original repo or paper page), not a mirror or aggregator.
-- Keep descriptions **present tense**, factual, and concise (target **~120-180 characters before the badge**), with **no trailing period**.
+- Keep descriptions **present tense**, factual, and concise (target **~120-180 characters before the badge**), with **a trailing period**.
 - Place entries **alphabetically** within their section.
 - One entry per line; no duplicate URLs anywhere in the list.
 
