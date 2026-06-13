@@ -1,4 +1,4 @@
-# Awesome LLM Token Reduction [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+# Awesome LLM Token Reduction [![Awesome](https://awesome.re/badge.svg)](https://awesome.re) [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com) [![License: CC0-1.0](https://img.shields.io/badge/License-CC0_1.0-lightgrey.svg)](https://creativecommons.org/publicdomain/zero/1.0/)
 
 > A curated list of techniques, tools, and research for reducing LLM token usage — with a focus on AI coding assistants like Claude Code, OpenAI Codex, and GitHub Copilot.
 
@@ -28,19 +28,19 @@ Every prompt and response costs tokens, and coding agents burn through them fast
 
 > Drop-in proxies, plugins, hooks, and MCP servers that cut tokens for Claude Code, Codex, Copilot, Cursor, and Aider.
 
-- [ClaudeShrink](https://github.com/g-akshay/ClaudeShrink) - Claude Code skill that shrinks large prompts and files with LLMLingua to save tokens ![Stars](https://img.shields.io/github/stars/g-akshay/ClaudeShrink?style=social)
 - [claude-rolling-context](https://github.com/NodeNestor/claude-rolling-context) - Claude Code plugin that compresses old messages while keeping recent context verbatim ![Stars](https://img.shields.io/github/stars/NodeNestor/claude-rolling-context?style=social)
 - [claude-shorthand](https://github.com/gladehq/claude-shorthand) - LLMLingua-2 prompt-compression hook for Claude Code ![Stars](https://img.shields.io/github/stars/gladehq/claude-shorthand?style=social)
+- [ClaudeShrink](https://github.com/g-akshay/ClaudeShrink) - Claude Code skill that shrinks large prompts and files with LLMLingua to save tokens ![Stars](https://img.shields.io/github/stars/g-akshay/ClaudeShrink?style=social)
 - [engram](https://github.com/pythondatascrape/engram) - Local-first context compression for AI coding tools, deduping redundant tokens across calls ![Stars](https://img.shields.io/github/stars/pythondatascrape/engram?style=social)
 - [entroly](https://github.com/juyterman1000/entroly) - Local proxy that compresses context for Claude Code, Codex, Cursor, and Aider ![Stars](https://img.shields.io/github/stars/juyterman1000/entroly?style=social)
 - [headroom](https://github.com/chopratejas/headroom) - Compresses tool output, logs, files, and RAG chunks before they reach the LLM ![Stars](https://img.shields.io/github/stars/chopratejas/headroom?style=social)
 - [llmtrim](https://github.com/fkiene/llmtrim) - Provider-agnostic Rust proxy that compresses input, output, and cache with no extra model calls ![Stars](https://img.shields.io/github/stars/fkiene/llmtrim?style=social)
 - [rtk](https://github.com/rtk-ai/rtk) - CLI proxy that cuts LLM token use 60-90% on common dev commands, single Rust binary ![Stars](https://img.shields.io/github/stars/rtk-ai/rtk?style=social)
 - [sigmap](https://github.com/manojmallick/sigmap) - Zero-dependency MCP server for AST-based code context reduction across 31 languages ![Stars](https://img.shields.io/github/stars/manojmallick/sigmap?style=social)
-- [tokless](https://github.com/HoangP8/tokless) - Unified CLI to install and update token-saving plugins for Claude Code, Codex, and OpenCode ![Stars](https://img.shields.io/github/stars/HoangP8/tokless?style=social)
 - [token-optimizer-mcp](https://github.com/ooples/token-optimizer-mcp) - Claude Code MCP server reaching 95%+ token reduction through caching and optimization ![Stars](https://img.shields.io/github/stars/ooples/token-optimizer-mcp?style=social)
 - [token-reducer](https://github.com/Madhan230205/token-reducer) - Local-first Claude Code context compression using hybrid RAG and AST chunking ![Stars](https://img.shields.io/github/stars/Madhan230205/token-reducer?style=social)
 - [TokenTamer](https://github.com/borhen68/TokenTamer) - Drop-in proxy that compresses bloated code context in real time to cut API costs ![Stars](https://img.shields.io/github/stars/borhen68/TokenTamer?style=social)
+- [tokless](https://github.com/HoangP8/tokless) - Unified CLI to install and update token-saving plugins for Claude Code, Codex, and OpenCode ![Stars](https://img.shields.io/github/stars/HoangP8/tokless?style=social)
 
 ## Prompt Compression Libraries
 
@@ -95,3 +95,9 @@ Contributions are welcome! Please read the [contribution guidelines](CONTRIBUTIN
 [![CC0](https://licensebuttons.net/p/zero/1.0/88x31.png)](LICENSE)
 
 To the extent possible under law, the authors have waived all copyright and related or neighboring rights to this work. See [LICENSE](LICENSE).
+
+---
+
+## Star History
+
+[![Star History Chart](https://api.star-history.com/svg?repos=congvmit/awesome-llm-token-reduction&type=Date)](https://star-history.com/#congvmit/awesome-llm-token-reduction&Date)
