@@ -13,13 +13,13 @@ Thanks for helping improve **Awesome LLM Token Reduction**! This list collects h
 Each entry is a single bullet:
 
 ```markdown
-- [Name](https://canonical-url) - Concise description of what it does
+- [Name](https://canonical-url) - Concise description of what it does ![Stars](https://img.shields.io/github/stars/owner/repo?style=social)
 ```
 
 Rules:
 
 - Use the **canonical** source (original repo or paper page), not a mirror or aggregator.
-- Keep descriptions **present tense**, factual, and **≤ ~120 characters**, with **no trailing period**.
+- Keep descriptions **present tense**, factual, and concise (target **~120-180 characters before the badge**), with **no trailing period**.
 - Place entries **alphabetically** within their section.
 - One entry per line; no duplicate URLs anywhere in the list.
 

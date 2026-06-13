@@ -6,7 +6,7 @@ Every prompt and response costs tokens, and coding agents burn through them fast
 
 ## Contents
 
-- [Awesome LLM Token Reduction ](#awesome-llm-token-reduction-)
+- [Awesome LLM Token Reduction](#awesome-llm-token-reduction)
   - [Contents](#contents)
   - [Surveys \& Background](#surveys--background)
   - [Coding-Assistant Token Savers](#coding-assistant-token-savers)
@@ -88,7 +88,7 @@ Every prompt and response costs tokens, and coding agents burn through them fast
 
 ## Contributing
 
-Contributions are welcome! Please read the [contribution guidelines](CONTRIBUTING.md) first. In short: one entry per pull request line, keep descriptions concise and present tense, verify the link resolves, and place the entry alphabetically within its section.
+Contributions are welcome! Please read the [contribution guidelines](CONTRIBUTING.md) first. In short: one entry per pull request, one entry per line, keep descriptions concise and present tense, verify the link resolves, and place the entry alphabetically within its section.
 
 ## License
 
