@@ -5,7 +5,7 @@ on:
 
 jobs:
   auto-approve:
-    runs-on: gha-rss-default
+    runs-on: ubuntu-latest
     timeout-minutes: 10
     steps:
     - id: pr-label
