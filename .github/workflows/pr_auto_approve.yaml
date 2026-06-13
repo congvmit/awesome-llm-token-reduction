@@ -1,0 +1,32 @@
+name: Auto approve PR
+
+on:
+  pull_request_target:
+
+jobs:
+  auto-approve:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      pull-requests: write
+    timeout-minutes: 10
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v4
+
+    - id: pr-label
+      name: Labeling PR
+      uses: actions/labeler@f27b608878404679385c85cfa523b85ccb86e213 # v6
+      with:
+        configuration-path: ".github/labeler.yml"
+        sync-labels: true
+        repo-token: ${{ secrets.GITHUB_TOKEN }}
+
+    - id: auto-approve
+      name: Auto approve PR based on labels
+      continue-on-error: true
+      uses: github/privileged-requester@ceea3f40bfb3ddaa2aabd3d19377eb2457a20c1a # v2.3.4
+      with:
+        path: ".github/privileged-requester.yaml"
+        checkDiff: false
+        github_token: ${{ secrets.GITHUB_TOKEN }}
