@@ -1,13 +1,19 @@
 name: Auto approve PR
 
 on:
-  pull_request:
+  pull_request_target:
 
 jobs:
   auto-approve:
     runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      pull-requests: write
     timeout-minutes: 10
     steps:
+    - name: Checkout
+      uses: actions/checkout@v4
+
     - id: pr-label
       name: Labeling PR
       uses: actions/labeler@f27b608878404679385c85cfa523b85ccb86e213 # v6
