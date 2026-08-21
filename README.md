@@ -1,3 +1,5 @@
+
+
 # Awesome LLM Token Reduction [![Awesome](https://awesome.re/badge.svg)](https://awesome.re) [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com) [![License: CC0-1.0](https://img.shields.io/badge/License-CC0_1.0-lightgrey.svg)](https://creativecommons.org/publicdomain/zero/1.0/)
 
 > A curated list of techniques, tools, and research for reducing LLM token usage — with a focus on AI coding assistants like Claude Code, OpenAI Codex, and GitHub Copilot.
@@ -85,7 +87,7 @@ Every prompt and response costs tokens, and coding agents burn through them fast
 
 ## Contributing
 
-Contributions are welcome! Please read the [contribution guidelines](CONTRIBUTING.md) first. In short: one entry per pull request, one entry per line, keep descriptions concise and present tense (ending with a period), verify the link resolves, and place the entry alphabetically within its section.
+Contributions are welcome! Please read the [contribution guidelines](CONTRIBUTING.md) first. In short: one entry per pull request, one entry per line, keep descriptions concise and present tense (target ~120-180 characters before the badge and ending with a period), verify the link resolves, and place the entry alphabetically within its section.
 
 ---
 
