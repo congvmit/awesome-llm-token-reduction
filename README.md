@@ -36,6 +36,7 @@ Every prompt and response costs tokens, and coding agents burn through them fast
 - [sigmap](https://github.com/manojmallick/sigmap) - Zero-dependency MCP server for AST-based code context reduction across 31 languages. ![Stars](https://img.shields.io/github/stars/manojmallick/sigmap?style=social)
 - [token-optimizer-mcp](https://github.com/ooples/token-optimizer-mcp) - Claude Code MCP server reaching 95%+ token reduction through caching and optimization. ![Stars](https://img.shields.io/github/stars/ooples/token-optimizer-mcp?style=social)
 - [token-reducer](https://github.com/Madhan230205/token-reducer) - Local-first Claude Code context compression using hybrid RAG and AST chunking. ![Stars](https://img.shields.io/github/stars/Madhan230205/token-reducer?style=social)
+- [Tokenade](https://tokenade.net) - CLI proxy compacting command output, MCP results, and file reads for Claude Code, Cursor, Codex, and Copilot. Closed source, free tier.
 - [TokenTamer](https://github.com/borhen68/TokenTamer) - Drop-in proxy that compresses bloated code context in real time to cut API costs. ![Stars](https://img.shields.io/github/stars/borhen68/TokenTamer?style=social)
 - [tokless](https://github.com/HoangP8/tokless) - Unified CLI to install and update token-saving plugins for Claude Code, Codex, and OpenCode. ![Stars](https://img.shields.io/github/stars/HoangP8/tokless?style=social)
 
